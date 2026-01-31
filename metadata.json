@@ -1,0 +1,8 @@
+{
+  "name": "InsafCam - Flood Damage Assessor",
+  "description": "An AI-powered disaster assessment tool for Pakistani flood victims to generate formal NDMA compensation claims and audio summaries in local languages.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
