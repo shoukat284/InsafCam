@@ -36,5 +36,5 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/InsafCam.git](https://github.com/YOUR_USERNAME/InsafCam.git)
+   git clone https://github.com/shoukat284/InsafCam.git
    cd InsafCam
