@@ -1,20 +1,36 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" src="YOUR_NEW_IMAGE_URL_HERE" alt="InsafCam Banner" />
+  <h1>🌍 InsafCam: Disaster Recovery Agent</h1>
+  <p><b>Empowering vulnerable communities with AI-driven justice and instant aid verification.</b></p>
+  
+  [![Gemini 1.5 Pro](https://img.shields.io/badge/Powered%20by-Gemini%201.5%20Pro-blueviolet)](https://ai.google.dev/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📖 Overview
+**InsafCam** is an AI-powered agent designed to close the "justice gap" in disaster relief. By leveraging **Gemini 1.5 Pro’s multimodal capabilities**, it allows victims of floods, earthquakes, and climate disasters to document property damage and generate verified aid claims in seconds.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1UoV44WfpydamN_Z2U9TYgOKP8RXrJYIK
+### ✨ Key Features
+* **Multimodal Assessment:** Uses Gemini Vision to distinguish between structural damage and superficial wear.
+* **Automated Claim Drafting:** Generates professional legal claims in local languages.
+* **Geo-Verification:** Cross-references images with disaster zone coordinates to ensure authenticity.
+* **Low-Bandwidth Optimized:** Built for deployment in areas with limited connectivity.
 
-## Run Locally
+## 🛠️ Tech Stack
+* **Core AI:** Google Gemini 1.5 Pro (via Google AI Studio)
+* **Framework:** Next.js / Node.js
+* **APIs:** Google Maps Geolocation & Gemini Function Calling
 
-**Prerequisites:**  Node.js
+## 🚀 Getting Started
 
+### Prerequisites
+* Node.js (v18 or higher)
+* A Google AI Studio API Key
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation & Setup
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/InsafCam.git](https://github.com/YOUR_USERNAME/InsafCam.git)
+   cd InsafCam
