@@ -9,6 +9,12 @@ export interface MaterialEstimate {
   item: string;
   quantity: string;
   unit: string;
+  estimatedPricePKR?: string;
+}
+
+export interface GroundingLink {
+  title: string;
+  uri: string;
 }
 
 export interface AssessmentResult {
@@ -18,7 +24,10 @@ export interface AssessmentResult {
   urduSummaryScript: string;
   pashtoSummaryScript: string;
   formalTechnicalNotes: string;
+  safetyScore: number; // 0-100
   isClear: boolean;
+  marketSources?: GroundingLink[];
+  nearbyReliefCenters?: GroundingLink[];
 }
 
 export interface AppState {
@@ -28,4 +37,5 @@ export interface AppState {
   assessment: AssessmentResult | null;
   error: string | null;
   audioBlob: string | null;
+  isLiveMode: boolean;
 }
