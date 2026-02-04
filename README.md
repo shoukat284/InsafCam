@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="1200" src="https://i.ibb.co/1YCShYWk/Insaf-Cam-Mockups.png" alt="InsafCam Banner" />
+  <img width="1200" src="<img width="2159" height="1000" alt="Image" src="https://github.com/user-attachments/assets/bb8ecee7-5f9c-489a-9656-3298cc49e51c" />" />
   <h1>🌍 InsafCam: Disaster Recovery Agent</h1>
   <p><b>Empowering vulnerable communities with AI-driven justice and instant aid verification.</b></p>
   
